@@ -1,16 +1,24 @@
-# Node modules
+# Ignore node_modules everywhere
 node_modules/
+
+# Or explicitly ignore node_modules inside client and server:
+client/node_modules/
+server/node_modules/
+
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
 
-# Environment variables
+# Env files
 .env
+client/.env
+server/.env
 
-# Uploads
-uploads/
+# Uploads folder (likely in server)
+server/uploads/
 
-# Build output
-dist/
-build/
+# Build output folders
+client/build/
+server/dist/
+server/build/
