@@ -1,5 +1,5 @@
 # Ignore node_modules everywhere
-node_modules/
+
 
 # Or explicitly ignore node_modules inside client and server:
 client/node_modules/
@@ -11,7 +11,7 @@ logs/
 npm-debug.log*
 
 # Env files
-.env
+
 client/.env
 server/.env
 
